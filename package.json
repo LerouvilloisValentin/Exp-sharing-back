@@ -9,7 +9,7 @@
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
   "scripts": {
-    "build": "npm i && nest build",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
@@ -41,7 +41,7 @@
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
-    "@nestjs/cli": "^10.0.1",
+    "@nestjs/cli": "^10.2.1",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.0",
     "@swc/cli": "^0.1.62",
