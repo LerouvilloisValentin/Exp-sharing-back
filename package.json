@@ -2,6 +2,10 @@
   "name": "nest-typescript-starter",
   "private": true,
   "version": "1.0.0",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "9.x"
+  },
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
   "scripts": {
@@ -29,6 +33,7 @@
     "heroku": "^8.7.1",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
+    "nodejs": "^0.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "serverless-http": "^3.2.0"
